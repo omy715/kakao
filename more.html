@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friends - Kokoa Talk</title>
+    <title>More - Kokoa Talk</title>
 </head>
 <body>
     <div class="status-bar">
@@ -23,67 +23,68 @@
     </div>
 
     <header class="screen-header">
-        <h1 class="screen-header__title">Friends</h1>
+        <h1 class="screen-header__title">More</h1>
         <div class="screen-header__icons">
             <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
             <span><i class="fa-solid fa-music fa-lg"></i></span>
-            <span><i class="fa-solid fa-gear fa-lg"></i></span>
+            <span><a href="setting.html"><i class="fa-solid fa-gear fa-lg"></i></a></span>
         </div>
 
     </header>
 
-    <a id="friends-display-link">
-        <i class="fa-solid fa-circle-info fa-lg"></i> Friend's Names Display <i class="fa-solid fa-chevron-right fa-xs"></i>
-    </a>
-
-    <main class="firends-screen">   
+    <main class="main-screen more-screen">
         <div class="user-component">
             <div class="user-component__column">
                 <img class="user-component__avatar user-component__avatar--xl" src="https://search.pstatic.net/sunny/?src=https%3A%2F%2Fcdn2.ppomppu.co.kr%2Fzboard%2Fdata3%2F2022%2F0509%2F20220509173224_d9N4ZGtBVR.jpeg&type=sc960_832" />
                 <div class="user-component__text">
                     <h4 class="user-component__title">MY</h4>
-                    <!--<h6 class="user-component__subtitle">blah blah blah</h6>-->
+                    <h6 class="user-component__subtitle">+82-0000-0000 <i class="fa-solid fa-circle-exclamation" style="color: #FFD43B;"></i></h6>
                 </div>
             </div>
-            <div class="user-component__column"></div>
-        </div>
-        <div class="firends-screen__channel">
-            <div class="firends-screen__channel-header">
-                <span>Channel</span>
-                <i class="fa-solid fa-chevron-up fa-xs"></i>
-            </div>
-            <div class="user-component">
-                <div class="user-component__column">
-                    <img class="user-component__avatar user-component__avatar--sm" src="https://play-lh.googleusercontent.com/cf3DwPLbS8Z55sDvUSTQ6PL1goPdm8KbZ81g4TEUAaeUh5LDhkzdjxKQ2RX6BGpv0x4" />
-                    <div class="user-component__text">
-                        <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
-                    </div>
-                </div>
-                <div class="user-component__column">
-                    <div>
-                        <span>2</span>
-                        <i class="fa-solid fa-chevron-right fa-xs"></i>
-                    </div>
-                </div>
+            <div class="user-component__column">
+                <i class="fa-regular fa-2x fa-message"></i>
             </div>
         </div>
-
-    </main> 
-
+        <div class="icon-row">
+            <div class="icon-row__icon">
+                <i class="fa-solid fa-calendar-days"></i>
+                <span>Calendar</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-regular fa-face-smile"></i>
+                <span>Emoticons</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-solid fa-brush"></i>
+                <span>Themes</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-solid fa-file-invoice-dollar"></i>
+                <span>Accounts</span>
+            </div>
+        </div>
+        <div class="more-suggestions">
+            <h4 class="more-suggestions__title">Suggestions</h4>
+            <div class="more-suggestions__icons">
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-image">
+                        <i class="fa-solid fa-quote-right"></i>
+                    </div>
+                    <span class="more-suggestions__icon-text">Kokoa Story</span>
+                </div>
+            </div>
+        </div>
+    </main>
 
     <nav class="nav">
         <ul class="nav__list">
-            <li class="nav__btn"><afriends.html class="nav__link" href="friends.html"><i class="fa-solid fa-user fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="fa-regular fa-user fa-2x"></i></a></li>
             <li class="nav__btn">
                 <a class="nav__link" href="chats.html"><span class="nav__notification badge">1</span><i class="fa-regular fa-comment fa-2x"></i></a></li>
             <li class="nav__btn"><a class="nav__link" href="find.html"><i class="fa-solid fa-magnifying-glass fa-2x"></i></a></li>
             <li class="nav__btn"><a class="nav__link" href="more.html"><i class="fa-solid fa-ellipsis fa-2x"></i></a></li>
         </ul>
     </nav>
-    <div id="splash-screen">
-        <i class="fa-solid fa-comment"></i>
-    </div>
-
 
     <script src="https://kit.fontawesome.com/aaf457af4f.js" crossorigin="anonymous"></script>
 </body>
