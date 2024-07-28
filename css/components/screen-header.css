@@ -19,7 +19,7 @@
 
 @keyframes rotateGear{
     from{
-        none;
+        transform: none;
     }
     to{
         transform: rotateZ(360deg);
