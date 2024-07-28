@@ -37,7 +37,6 @@
     }
 }
 
-
 #splash-screen{
     background-color: var(--yellow);
     position: absolute;
@@ -52,6 +51,3 @@
     animation-delay: 0.8s;
 }
 
-#splash-screen i{
-
-}
